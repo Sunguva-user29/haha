@@ -34,7 +34,7 @@ public class WritingtoReadingFromFile {
                 name=dis.readUTF();
                 address=dis.readUTF();
                 cname=dis.readUTF();
-                if(address.compareToIgnoreCase("JHAPA ")==0)
+                if(address.trim().compareToIgnoreCase("JHAPA ")==0)
                 System.out.println(rollno+"\t"+name+"\t"+address+"\t"+cname);
             }
         }
